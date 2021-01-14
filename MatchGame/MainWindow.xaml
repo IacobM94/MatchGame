@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MatchGame"
         mc:Ignorable="d"
-        Title="Find all the matching animals" Height="426" Width="403">
+        Title="Find all the matching animals" Height="596" Width="403">
     <Grid x:Name="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -18,8 +18,9 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="45" FontSize="36" TextAlignment="Center" Margin="19,21,16,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="28,39,25,36" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -29,7 +30,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="45" FontSize="36" TextAlignment="Center" Margin="19,23,16,16" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="28,36,25,37" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -39,7 +40,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="20,21,16,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="30,39,25,37" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -49,7 +50,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="21,21,19,18" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="28,9,27,4" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -59,7 +60,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="19,20,15,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="29,38,26,38" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -69,7 +70,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="19,21,13,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="29,39,24,37" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -79,7 +80,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="19,21,16,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="29,39,26,36" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -89,7 +90,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="19,22,15,17" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="29,11,26,2" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -99,7 +100,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="20,20,16,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="30,38,25,38" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -109,7 +110,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="20,21,16,19" Grid.Row="1" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="30,39,25,37" Grid.Row="1" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -119,7 +120,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="20,21,16,19" Grid.Row="2" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="30,39,25,36" Grid.Row="2" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -129,7 +130,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="20,21,16,18" Grid.Row="3" MouseDown="TextBlock_MouseDown">
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="44" FontSize="36" TextAlignment="Center" Margin="30,9,25,4" Grid.Row="3" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -139,7 +140,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="45" FontSize="36" TextAlignment="Center" Margin="18,21,16,18" MouseDown="TextBlock_MouseDown">
+        <TextBlock HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="28,9,26,4" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -149,7 +150,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="45" FontSize="36" TextAlignment="Center" Margin="18,21,16,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="28,39,26,36" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -159,7 +160,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="45" FontSize="36" TextAlignment="Center" Margin="18,21,16,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="28,39,26,37" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -169,7 +170,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="45" FontSize="36" TextAlignment="Center" Margin="18,20,16,19" MouseDown="TextBlock_MouseDown">
+        <TextBlock HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="40" Width="46" FontSize="36" TextAlignment="Center" Margin="28,38,26,38" MouseDown="TextBlock_MouseDown">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -179,6 +180,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="Elapsed Time" VerticalAlignment="Center" Grid.ColumnSpan="4" MinWidth="8" FontSize="36" MouseDown="TimeTextBlock_MouseDown"/>
     </Grid>
 </Window>
     
